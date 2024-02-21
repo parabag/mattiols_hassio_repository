@@ -22,7 +22,7 @@ RUN /bin/ash -c 'set -ex && \
            python3-dev \
            cargo \
            \
-        && git clone -b v2 https://github.com/andrea-mattioli/bticino_X8000_rest_api.git \
+        && git clone -b v2 https://github.com/parabag/bticino_X8000_rest_api.git \
         && mv bticino_X8000_rest_api/* /hassio_bticino_smarter/ \
         && rm -rf bticino_X8000_rest_api; \
     else \
@@ -42,7 +42,7 @@ RUN /bin/ash -c 'set -ex && \
            python3-dev \
            cargo \
            \
-        && git clone -b v2 https://github.com/andrea-mattioli/bticino_X8000_rest_api.git \
+        && git clone -b v2 https://github.com/parabag/bticino_X8000_rest_api.git \
         && mv bticino_X8000_rest_api/* /hassio_bticino_smarter/ \
         && rm -rf bticino_X8000_rest_api; \
     fi'
